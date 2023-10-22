@@ -1,0 +1,62 @@
+ history
+    2  mkdir 80471_day3
+    3  mkdir 80471_day3/dir1
+    4  cd 80471_day3/dir1
+    5  touch file1.txt file2.doc file3.bak file4.sh
+    6  ls
+    7  cd ../..
+    8  le 80471_day3/dir1/*.txt
+    9  ls 80471_day3/dir1/*.txt
+   10  rm 80471_day3/dir1/*.bak
+   11  ls 80471_day3/dir1
+   12  chmod +x 80471_day3/dir1/*.sh
+   13  ls-l 80471_day3/dir1/*.sh
+   14  ls-l 80471_day3/dir1
+   15  ls -l 80471_day3/dir1
+   16  mkdir com_dir
+   17  mkdir com_dir/files
+   18  mkdir com_dir/files/text_files
+   19  mkdir com_dir/files/audio_files
+   20  mkdir com_dir/files/video_files
+   21  mkdir com_dir/files/documents
+   22  cd com_dir/files/documents
+   23  touch txt{1..3}.txt
+   24  ls
+   25  cd com_dir/files/video_files
+   26  cd ..
+   27  cd video_files
+   28  touch txt{1..3}.txt
+   29  ls
+   30  cd ..
+   31  cd audio_files
+   32  touch txt{1..3}.txt
+   33  ls
+   34  cd ..
+   35  cd text_files
+   36  touch txt{1..3}.txt
+   37  cd ../../..
+   38  ls com_dir/files/*/*.txt
+   39  mv com_dir/files/*/*.txt com_dir/files/text_files/
+   40  tree
+   41  ls
+   42  cd com_dir
+   43  cd audio_files
+   44  cd files/audio_files
+   45  touch doc{1..3}.doc
+   46  cd ..
+   47  cd documents
+   48  touch doc{4..6}.doc
+   49  cd text_files
+   50  cd ..
+   51  cd text_files
+   52  touch doc{7..9}.doc
+   53  cd ..
+   54  cd video_files
+   55  touch doc{10..12}.doc
+   56  cd ../..
+   57  cd ..
+   58  cp com_dir/files/*/*.doc com_dir/files/documents/
+   59  tree
+   60  grep -r "abcd" com_dir/files/text_files/*.txt
+   61  history
+
