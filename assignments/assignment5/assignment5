@@ -1,0 +1,74 @@
+ cd ..
+  471  ls -lt
+  472  ls -lhs
+  473  ls -li
+  474  cd assignment5
+  475  mkdir dir 
+  476  ls subdir_name
+  477  cd ..
+  478  ls assignment11
+  479  cd assignment5
+  480  echo "Pravin" > your_file.txt
+  481  ls
+  482  cat your*.txt
+  483  echo "address" >> your_file.txt
+  484  cat your*.txt
+  485  ls -l
+  486  touch -t 200010152030.SS your_file.txt
+  487  touch -t 200010152030 your_file.txt
+  488  ls -l
+  489  mkdir -p one/two/three/four/five
+  490  ls -l
+  491  ls one/two/three/four/five
+  492  cd one/two/three/four/five
+  493  touch 5.txt 55.txt 555.txt
+  494  cd ..
+  495  touch 4.txt 44.txt 444.txt
+  496  cd ..
+  497  touch 3.txt 33.txt 333.txt
+  498  cd ..
+  499  touch 2.txt 22.txt 222.txt
+  500  cd ..
+  501  touch 1.txt 11.txt 111.txt
+  502  cd ..
+  503  echo "shinichi" > one/two/three/four/44.txt
+  504  cat > one/two/three/four/44.txt
+  505  cd one/two/three/four
+  506  ls
+  507  cast 44.txt
+  508  cat 44.txt
+  509  echo "shinichi" > 44.txt
+  510  cat 44.txt
+  511  cd ..
+  512  cd..
+  513  cd ..
+  514  rm one/two/three/four/five/555.txt
+  515  tree
+  516  cd one/two/three/four/five
+  517  echo "Ditiss" > ../three/3.txt
+  518  cd ..
+  519  echo "Ditiss" > ../three/3.txt
+  520  cd
+  521  cd one/two/three/four/five
+  522  cd /C1-80471-Pravin/assignments/assignment5/one/two/three/four
+  523  cd C1-80471-Pravin/assignments/assignment5/one/two/three/four
+  524  cd C1-80471-Pravin/assignments/assignment5/one/two
+  525  ls C1-80471-Pravin/assignments/assignment5/one/two
+  526  echo "Ditiss" >.. /.. /three/3.txt
+  527  cd ..
+  528  cd ...
+  529  cd ..
+  530  touch -t 000010231520 one/two/three/3.txt
+  531  ls -l one/two/three/3.txt
+  532  touch -t 000010231522 one/two/three/3.txt
+  533  ls -l one/two/three/3.txt
+  534  cd one/two/three/3.txt
+  535  cd one/two/three
+  536  ls
+  537  touch -t 000010231522 3.txt
+  538  ls
+  539  ls -l
+  540  touch -t 200110231922 3.txt
+  541  ls -l
+  542  history
+
